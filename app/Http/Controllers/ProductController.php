@@ -15,7 +15,7 @@ class ProductController extends Controller
      */
     public function index() : View
     {
-        return view('product.index',[
+        return view('products.index',[
             'products' => Product::latest()->paginate(4)
         ]);
     }
@@ -51,7 +51,7 @@ class ProductController extends Controller
      */
     public function edit(Product $product) : View
     {
-        return view('products.edut', compact('product'));
+        return view('products.edit', compact('product'));
     }
 
     /**
