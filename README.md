@@ -1,4 +1,5 @@
 # Simple Laravel 11 CRUD Application Tutorial
+asdfasdf
 
 This is a simple CRUD (Create, Read, Update, Delete) application built using Laravel 11. The application allows users to manage a list of products.
 
